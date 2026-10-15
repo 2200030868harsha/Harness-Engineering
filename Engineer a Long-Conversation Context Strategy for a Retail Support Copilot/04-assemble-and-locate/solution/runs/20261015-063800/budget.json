@@ -1,0 +1,22 @@
+{
+  "token_counter_methodology": "Anthropic messages.count_tokens endpoint (model-authoritative)",
+  "baseline_tokens": 38708,
+  "assembled_tokens": 16801,
+  "reduction_pct": 56.6,
+  "per_section_tokens": {
+    "case_facts": 204,
+    "resolved_refund": 350,
+    "resolved_subscription": 476,
+    "active": 15789
+  },
+  "compression_api": {
+    "refund": {
+      "input_tokens": 12334,
+      "output_tokens": 337
+    },
+    "subscription": {
+      "input_tokens": 11475,
+      "output_tokens": 463
+    }
+  }
+}
